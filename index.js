@@ -14,7 +14,6 @@ const sampleEmployee = {
 	picture: {
 		medium: "https://randomuser.me/api/portraits/med/men/40.jpg",
 	},
-
 };
 
 app.get("/api/employees", (req, res) => {
